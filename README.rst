@@ -22,10 +22,12 @@ These instructions will help you load the M001 datasets into a local MongoDB ins
 
 1. Download the `m001-datasets.zip <https://s3.amazonaws.com/edu-static.mongodb.com/data/M001/m001-datasets.zip>`_ file from S3.
 
-2. Ensure you have a running MongoDB instance. For instructions on installation and setup, see the `MongoDB installation documentation <https://docs.mongodb.com/manual/installation/>`_. Installation tutorials for all platforms include instructions for running MongoDB (the mongod daemon).
+2. Unzip ``m001-datasets.zip``. This will create a directory/folder called ``dump``.
 
-3. Once you have a ``mongod`` instance running, you may import the datasets using `mongorestore <https://docs.mongodb.com/manual/reference/program/mongorestore/>`_.
+3. Ensure you have a running MongoDB instance. For instructions on installation and setup, see the `MongoDB installation documentation <https://docs.mongodb.com/manual/installation/>`_. Installation tutorials for all platforms include instructions for running MongoDB (the mongod daemon).
+
+4. Once you have a ``mongod`` instance running, you may import the datasets using `mongorestore <https://docs.mongodb.com/manual/reference/program/mongorestore/>`_.
 
    a. Open a command shell (e.g., bash, powershell, or cmd).
-   b. Change directory (e.g., ``cd``) to where you downloaded m001-datasets.zip.
-   c. Assuming you are running ``mongod`` on the default port, you may restore the datasets with the command, ``mongorestore --gzip --archive=m001-datasets.zip``.
+   b. Change directory (e.g., ``cd``) to where you unzipped ``m001-datasets.zip``.
+   c. Assuming you are running ``mongod`` on the default port, you may import the datasets from the dump directory by simply running, ``mongorestore``. ``mongorestore`` looks for a directory called ``dump`` to import.
