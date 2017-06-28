@@ -8,11 +8,11 @@ Datasets
 
 All datasets are provided in Amazon S3 in a single zip file (243 MB zipped; 1.5 GB unzipped). The files were created with the `mongodump <https://docs.mongodb.com/manual/reference/program/mongodump/>`_ command. They may be imported into your MongoDB deployment using `mongorestore <https://docs.mongodb.com/manual/reference/program/mongorestore/>`_. Note that these datasets include the indexes necessary to support example queries and labs used in M001. The datasets included are as follows.
 
-**100YWeatherSmall** (403 MB) - readings from weather stations throughout the world.
-**city** (3.2 MB) - geospatial representations of neighborhoods in New York City.
-**citibike** (835 MB) - details for trips taken using `Citibikes <https://www.citibikenyc.com/>`_.
-**ships** (3.6 MB) - data on shipwrecks around the world, including geospatial coordinates.
-**video** (303 MB) - summary data on movies.
+- **100YWeatherSmall** (403 MB) - readings from weather stations throughout the world.
+- **city** (3.2 MB) - geospatial representations of neighborhoods in New York City.
+- **citibike** (835 MB) - details for trips taken using `Citibikes <https://www.citibikenyc.com/>`_.
+- **ships** (3.6 MB) - data on shipwrecks around the world, including geospatial coordinates.
+- **video** (303 MB) - summary data on movies.
 
 
 Importing Data Locally
