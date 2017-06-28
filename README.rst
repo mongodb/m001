@@ -1,7 +1,7 @@
 Overview
 ========
 
-Here you will find links to datasets for `M001: MongoDB Basics <https://university.mongodb.com/courses/M001/about>`_.
+Here you will find instructions for importing the datasets for `M001: MongoDB Basics <https://university.mongodb.com/courses/M001/about>`_ into a locally running MongoDB deployment.
 
 Datasets
 ========
