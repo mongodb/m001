@@ -18,7 +18,7 @@ All datasets are provided in Amazon S3 in a single zip file (243 MB zipped; 1.5 
 Importing Data Locally
 ======================
 
-These instructions will help you load the M001 datasets into a local MongoDB instance (e.g., MongoDB running on your laptop).
+These instructions will help you load the M001 datasets into a local MongoDB instance (e.g., MongoDB running on your laptop). Note: this will require approximately 2.5 GB of RAM.
 
 1. Download the `m001-datasets.zip <https://s3.amazonaws.com/edu-static.mongodb.com/data/M001/m001-datasets.zip>`_ file from S3.
 
